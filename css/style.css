@@ -1,17 +1,18 @@
 .introduction {
-    background-image: url("../assets/backgrounds/h_img.jpg");
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    text-align: center;
-    height: 350px;
+  background-image: url("../assets/backgrounds/h_img.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  height: 350px;
+  padding: 10px;
 }
 
 .intro h1 {
-    color: white;
+  color: white;
 }
 
 .intro p {
-    color: white;
+  color: white;
 }
