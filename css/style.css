@@ -16,3 +16,12 @@
 .intro p {
   color: white;
 }
+.service {
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  min-height: 50vh;
+  width: 100%;
+  position: relative;
+  top: 160px;
+  color: #fff;
+  opacity: 0.8;
+}
