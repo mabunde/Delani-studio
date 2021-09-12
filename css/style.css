@@ -25,3 +25,10 @@
   color: #fff;
   opacity: 0.8;
 }
+.contactUs {
+  background-image: url("../assets/backgrounds/c_image.jpg");
+}
+form {
+  opacity: 0.1;
+  color: white;
+}
