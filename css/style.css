@@ -1,13 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .introduction {
   background-image: url("../assets/backgrounds/h_img.jpg");
-  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   text-align: center;
-  height: 350px;
-  padding: 10px;
+  height: 80vh;
 }
+.over {
+  margin: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+#aboutUs h1 {
+  text-align: center;
+}
+#aboutUs p {
+  text-align: center;
+}
+.service h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.logo img {
+  margin-top: 20px;
+}
+/* .mouse-click {
+  margin-top: 100px;
+} */
 
 .intro h1 {
   color: white;
@@ -24,11 +48,45 @@
   top: 160px;
   color: #fff;
   opacity: 0.8;
+  text-align: center;
+}
+.what-we-do {
+  margin-top: 180px;
+}
+.top {
+  text-align: center;
 }
 .contactUs {
   background-image: url("../assets/backgrounds/c_image.jpg");
 }
+#inputName {
+  background: transparent;
+  color: white;
+  border: solid 1px #fff;
+  width: 295px;
+}
+#inputEmail {
+  background: transparent;
+  color: white;
+  border: solid 1px #fff;
+  width: 295px;
+}
+#inputMessage {
+  background: transparent;
+  color: white;
+  border: solid 1px #fff;
+  height: 250px;
+  width: 580px;
+  margin: auto;
+  margin-right: 275px;
+}
 form {
   opacity: 0.1;
-  color: white;
 }
+.social-media {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+/* h3 {
+  color: white;
+} */
