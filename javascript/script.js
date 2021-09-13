@@ -3,10 +3,6 @@ $(document).ready(function(){
         $('#p1').toggle('slow')
         $('#icon1').slideUp();
     });
-    $('#p1').click(function() {
-        $('#p1').hide()
-        $('icon1').show()
-    });
 
     $('#icon2').click(function(){
         $('#p2').toggle('slow')
