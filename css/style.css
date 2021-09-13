@@ -41,19 +41,22 @@ body {
 #aboutUs p {
   text-align: center;
 }
-.service h2 {
+.services h2 {
   text-align: center;
   margin-bottom: 20px;
 }
-.service {
+.services {
   background-image: url("../assets/backgrounds/s_image.jpg");
-  min-height: 50vh;
+  height: 50vh;
   width: 100%;
   position: relative;
   top: 160px;
   color: #fff;
   opacity: 0.8;
   text-align: center;
+}
+#service {
+  margin-top: 30px;
 }
 .what-we-do {
   margin-top: 180px;
@@ -78,17 +81,21 @@ body {
   background-image: url("../assets/backgrounds/c_image.jpg");
   margin-top: 40px;
 }
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
 #inputName {
   background: transparent;
   color: white;
   border: solid 2px #fff;
-  width: 300px;
+  width: 250px;
 }
 #inputEmail {
   background: transparent;
   color: white;
   border: solid 2px #fff;
-  width: 300px;
+  width: 400px;
+  margin: auto;
 }
 #inputMessage {
   background: transparent;
@@ -99,10 +106,18 @@ body {
   margin: auto;
 }
 form {
-  opacity: 0.3;
+  opacity: 0.4;
+  width: 70%;
+  margin: auto;
 }
-button {
+#button {
   text-align: center;
+}
+.areatext {
+  margin-top: 20px;
+}
+.row {
+  margin-top: 50px;
 }
 .social-media {
   margin-top: 30px;
