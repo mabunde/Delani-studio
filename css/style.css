@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
 .introduction {
   background-image: url("../assets/backgrounds/h_img.jpg");
   background-size: cover;
@@ -62,26 +62,28 @@ body {
 #inputName {
   background: transparent;
   color: white;
-  border: solid 1px #fff;
-  width: 295px;
+  border: solid 2px #fff;
+  width: 300px;
 }
 #inputEmail {
   background: transparent;
   color: white;
-  border: solid 1px #fff;
-  width: 295px;
+  border: solid 2px #fff;
+  width: 300px;
 }
 #inputMessage {
   background: transparent;
   color: white;
-  border: solid 1px #fff;
+  border: solid 2px #fff;
   height: 250px;
   width: 580px;
   margin: auto;
-  margin-right: 275px;
 }
 form {
-  opacity: 0.1;
+  opacity: 0.3;
+}
+button {
+  text-align: center;
 }
 .social-media {
   margin-top: 30px;
