@@ -53,6 +53,11 @@ body {
 .what-we-do {
   margin-top: 180px;
 }
+#p1,
+#p2,
+#p3 {
+  display: none;
+}
 .top {
   text-align: center;
 }
