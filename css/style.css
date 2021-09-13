@@ -1,4 +1,7 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  text-decoration: none;
+}
 .introduction {
   background-image: url("../assets/backgrounds/h_img.jpg");
   background-size: cover;
@@ -61,8 +64,17 @@ body {
 .top {
   text-align: center;
 }
+.show {
+  width: 80%;
+  margin: auto;
+}
+.descr {
+  display: none;
+  text-align: center;
+}
 .contactUs {
   background-image: url("../assets/backgrounds/c_image.jpg");
+  margin-top: 40px;
 }
 #inputName {
   background: transparent;
