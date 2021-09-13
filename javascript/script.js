@@ -12,6 +12,10 @@ $(document).ready(function(){
         $('#p3').toggle('slow')
         $('#icon3').slideUp();
     });
+    // hover effects
+    $('.portfolio-1').hover(function() {
+        $('.descr',this).slideToggle();
+    });
     // form validation
     $('form#contactForm').submit(function(event) {
         var fName = $('input#inputName').val();
