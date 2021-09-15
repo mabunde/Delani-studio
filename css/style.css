@@ -71,6 +71,10 @@ body {
 .what-we-do {
   margin-top: 180px;
 }
+.port {
+  font-weight: 800;
+  text-align: center;
+}
 #p1,
 #p2,
 #p3 {
@@ -78,6 +82,7 @@ body {
 }
 .top {
   text-align: center;
+  font-weight: 700;
 }
 .show {
   width: 80%;
