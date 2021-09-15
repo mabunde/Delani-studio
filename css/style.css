@@ -35,15 +35,23 @@ body {
   box-sizing: border-box;
   margin: auto;
 }
-#aboutUs h1 {
+.aboutUs {
+  margin-top: 40px;
+}
+#aboutUs h2 {
   text-align: center;
+  font-weight: 600;
 }
 #aboutUs p {
   text-align: center;
 }
 .services h2 {
   text-align: center;
-  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.services p {
+  font-weight: 600;
 }
 .services {
   background-image: url("../assets/backgrounds/s_image.jpg");
@@ -73,13 +81,26 @@ body {
   width: 80%;
   margin: auto;
 }
-.descr {
-  display: none;
+.hover {
+  padding: 74px;
+  background-color: grey;
+  opacity: 0.7;
+  color: white;
+  margin-top: -184px;
   text-align: center;
+  font-weight: 800;
+  font-size: 22px;
 }
+
 .contactUs {
   background-image: url("../assets/backgrounds/c_image.jpg");
-  margin-top: 40px;
+  margin-top: 70px;
+}
+.us h3 {
+  font-weight: 700;
+}
+.us {
+  margin-top: 30px;
 }
 .form-control::-webkit-input-placeholder {
   color: white;
