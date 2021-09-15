@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100;400&display=swap");
 * {
   text-decoration: none;
 }
@@ -12,6 +12,7 @@
 }
 .over {
   margin: auto;
+  font-family: "Poppins", sans-serif;
 }
 .intro {
   margin-top: 50px;
@@ -52,6 +53,7 @@ body {
 
 .services p {
   font-weight: 600;
+  text-align: center;
 }
 .services {
   background-image: url("../assets/backgrounds/s_image.jpg");
@@ -107,22 +109,22 @@ body {
 }
 #inputName {
   background: transparent;
-  color: white;
   border: solid 2px #fff;
-  width: 250px;
+  width: 400px;
+  color: white;
 }
 #inputEmail {
   background: transparent;
-  color: white;
   border: solid 2px #fff;
-  width: 400px;
   margin: auto;
+  font-weight: 300;
+  color: white;
+  width: 400px;
 }
 #inputMessage {
   background: transparent;
-  color: white;
   border: solid 2px #fff;
-  height: 250px;
+  color: white;
   width: 580px;
   margin: auto;
 }
