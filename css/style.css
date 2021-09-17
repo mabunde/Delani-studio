@@ -17,6 +17,12 @@
 .intro {
   margin-top: 50px;
 }
+.intro h1 {
+  font-weight: 700;
+}
+.intro p {
+  font-weight: 700;
+}
 .logo img {
   margin-top: 200px;
 }
@@ -43,7 +49,11 @@ body {
   text-align: center;
   font-weight: 600;
 }
-#aboutUs p {
+.about {
+  width: 80%;
+  margin: auto;
+}
+.about p {
   text-align: center;
 }
 .services h2 {
@@ -111,6 +121,7 @@ body {
 }
 .form-control::-webkit-input-placeholder {
   color: white;
+  font-weight: 600;
 }
 #inputName {
   background: transparent;

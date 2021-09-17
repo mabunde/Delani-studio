@@ -3,14 +3,26 @@ $(document).ready(function(){
         $('#p1').toggle('slow')
         $('#icon1').slideUp();
     });
+    $('#p1').click(function(){
+        $('#p1').hide()
+        $('#icon1').show()
+    });
 
     $('#icon2').click(function(){
         $('#p2').toggle('slow')
         $('#icon2').slideUp();
     });
+    $('#p2').click(function(){
+        $('#p2').hide()
+        $('#icon2').show()
+    });
     $('#icon3').click(function(){
         $('#p3').toggle('slow')
         $('#icon3').slideUp();
+    });
+    $('#p3').click(function(){
+        $('#p3').hide()
+        $('#icon3').show()
     });
     $(".portfolio-1").hover(function () {
         $("#descr-1").show()
